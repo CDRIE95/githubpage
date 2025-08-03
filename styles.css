@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 60vh;
+  min-height: 100vh;
   padding: 40px;
   margin: 0;
 }
@@ -23,8 +23,8 @@ body {
   padding: 25px 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 700px;
 }
 
 h2 {
