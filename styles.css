@@ -4,7 +4,12 @@
 }
 
 body {
-  background-color: rgb(204,255,255);
+  background-image: url('huellitas.png'); 
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
+  background-attachment: fixed;
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -14,7 +19,7 @@ body {
 }
 
 .form-container {
-  background-color: #6666FF;
+  background-color: rgb(153,51,255);
   padding: 25px 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -36,8 +41,13 @@ form label {
 
 form input,
 form textarea {
-  background-color: #F0FFFF;
-  color: #000;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #4DFFFF; 
+  color: #000; 
 }
 
 form input::placeholder,
