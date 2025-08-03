@@ -9,26 +9,28 @@ body {
   background-size: auto;
   background-position: top left;
   background-attachment: fixed;
-
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
   padding: 40px;
   margin: 0;
 }
 
 .form-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* reparte el contenido verticalmente */
-  min-height: 80vh;
   background-color: rgb(255,191,128);
-  padding: 25px 30px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 700px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* espacio entre los campos */
+}
 }
 
 h2 {
