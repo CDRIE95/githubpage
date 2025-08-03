@@ -59,7 +59,7 @@ form button {
   margin-top: 20px;
   width: 100%;
   padding: 10px;
-  background-color: #FF00FF;
+  background-color: #0000FF;
   border: none;
   color: white;
   font-size: 16px;
@@ -68,5 +68,5 @@ form button {
 }
 
 form button:hover {
-  background-color: #DF00DF;
+  background-color: #0000DF;
 }
