@@ -19,6 +19,9 @@ body {
 }
 
 .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* reparte el contenido verticalmente */
   min-height: 80vh;
   background-color: rgb(255,191,128);
   padding: 25px 30px;
