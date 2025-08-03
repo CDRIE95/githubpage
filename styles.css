@@ -54,7 +54,6 @@ form input::placeholder,
 form textarea::placeholder {
   color: #999;
 }
-}
 
 form button {
   margin-top: 20px;
